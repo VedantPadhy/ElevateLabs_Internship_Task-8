@@ -28,3 +28,35 @@ Create a dynamic and interactive dashboard to visualize sales performance by **P
 - Converted `Order Date` to `Month-Year` using Power BI DAX:
   ```DAX
   MonthYear = FORMAT('Superstore_Sales'[Order Date], "MMM-YYYY")
+
+Visual Components
+Line Chart – Sales trend over each Month-Year
+
+
+Bar Chart – Sales performance by Region
+
+
+Donut Chart – Sales distribution by Category
+
+
+Slicer – Filter by Region to see region-specific insights
+
+
+KPI Cards – Total Sales, Total Profit, and Total Orders
+
+
+Profit Margin Bar Chart – Avg. Profit Margin by Category
+
+
+Top 5 Products Table – Products with highest sales + profit bars
+
+
+
+ Insights
+West Region recorded the highest total sales across multiple months.
+
+
+Technology Category outperformed in revenue but had fluctuating margins.
+
+
+Top 5 products contributed over 20% of total sales—highlighting a winner-take-most trend.
